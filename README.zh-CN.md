@@ -129,8 +129,6 @@ EdgeEver 官方容器镜像托管于 GitHub Container Registry（GHCR）。部�
   <a href="https://addons.mozilla.org/zh-CN/firefox/addon/edgeever-web-clipper/"><img src="https://raw.githubusercontent.com/alrra/browser-logos/58881b84c4d73adc03c06fa2c275a7abee02d935/src/firefox/firefox.svg" alt="为 Firefox 安装 EdgeEver 网页裁剪插件" width="36" height="36" /></a>
 </p>
 
-开发者也可参考[扩展开发说明](apps/extension/README.md)从源码构建并加载插件。
-
 ## 关于客户端
 
 原生客户端提供更流畅、稳定的使用体验，以及更完善的系统级集成，并支持本地存储与离线编辑。恢复联网后，内容会自动增量同步，适合高频使用和弱网场景。
@@ -232,7 +230,7 @@ Cloudflare Worker 侧执行图片处理会消耗计算/图片处理额度，因�
 
 ## 高级对象存储
 
-实例 Owner 可在**设置 → 高级设置 → OSS 对象存储**中配置兼容 S3 API 的对象存储。切换存储不会迁移或影响已有附件。Cloudflare 部署还需配置至少 32 个字符的 `EDGE_EVER_STORAGE_ENCRYPTION_KEY` Worker Secret。
+实例 Owner 可在**设置 → 高级设置 → OSS 对象存储**中配置兼容 S3 API 的对象存储。切换存储不会迁移或影响已有附件。
 
 ## 导入与迁移 (Migration)
 
